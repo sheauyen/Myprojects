@@ -1,2 +1,6 @@
 Using OnLine tool, Github and Dropbox
-for publishing
+for publishing...Here are some notes for myself
+nohup rsync -rK ciber@ciber.renci.org:/snprojects/iren2/ciber/vault18/ciber/T627/MO/ T627/MO
+If directory or filename had white space, when running 'rsync'
+
+nohup rsync -rK 'ciber@ciber.renci.org:/snprojects/iren2/ciber/vault13/EOS\ Data\ Files/'  "EOS Data Files"
