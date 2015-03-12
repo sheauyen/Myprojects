@@ -4,3 +4,11 @@ nohup rsync -rK ciber@ciber.renci.org:/snprojects/iren2/ciber/vault18/ciber/T627
 If directory or filename had white space, when running 'rsync'
 
 nohup rsync -rK 'ciber@ciber.renci.org:/snprojects/iren2/ciber/vault13/EOS\ Data\ Files/'  "EOS Data Files"
+More AMSA data at:
+/snprojects/iren2/ciber/vault17/ciberVault/RG 255 - Records of the National Aeronautics and Space Administration/EOS_Data_Files
+[ciber@ciber EOS_Data_Files]$ 
+[ciber@ciber EOS_Data_Files]$ ls -l
+total 12
+drwx------ 218 ciber irods 8192 Nov 10  2011 AMSA
+[ciber@ciber EOS_Data_Files]$ du -sh AMSA
+4.9T	AMSA
