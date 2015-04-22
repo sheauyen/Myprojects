@@ -1,2 +1,11 @@
 Using OnLine tool, Github and Dropbox
 for publishing...Here are some notes for myself
+
+From web (github site) to create/edit files
+on my local host, do 'git pull'
+
+From local host to create/edit files
+git add newFile
+git commit -m "first commit"
+git remote add origin https://github.com/sheauyen/Myprojects/xxx
+git push -u origin master
