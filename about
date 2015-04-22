@@ -8,4 +8,20 @@ From local host to create/edit files
 git add newFile
 git commit -m "first commit"
 git remote add origin https://github.com/sheauyen/Myprojects/xxx
-git push -u origin master
+
+or modified a file on local
+git commit -m "2nd commit" about
+$ git push https://github.com/sheauyen/Myprojects
+error: git-credential-osxkeychain died of signal 11
+Username for 'https://github.com': sheauyen
+Password for 'https://sheauyen@github.com': 
+error: git-credential-osxkeychain died of signal 11
+Counting objects: 13, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 1.11 KiB | 0 bytes/s, done.
+Total 8 (delta 1), reused 0 (delta 0)
+To https://github.com/sheauyen/Myprojects
+   f214cd3..1b5f227  master -> master
+$ 
+
