@@ -14,4 +14,19 @@ Programming language - Python, JavaScript
 
 RDBMS - Postgresql, Mysql
 
-System admin tools - Docker
+System admin tools - 
+
+Vagrant
+Ansible/Puppet/Chef 
+Docker
+
+Distributed Systems (cluster)
+Apachen Zookeeper
+
+Search engine:
+
+Apache Lucene
+Apache Solr
+Elasticsearch/Logstash/Kibana
+
+
